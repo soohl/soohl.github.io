@@ -1,0 +1,9 @@
+body { font: 16px/1.6 system-ui, sans-serif; margin: 0; color: #222; background: #fff; }
+.gate { max-width: 26rem; margin: 18vh auto; padding: 0 1rem; }
+.gate h1 { font-size: 1.4rem; margin: 0 0 .5rem; }
+.gate altcha-widget { display: block; margin: 1.5rem 0; }
+.gate-error { color: #b00020; min-height: 1.6em; }
+@media (prefers-color-scheme: dark) {
+  body { color: #ddd; background: #111; }
+  .gate-error { color: #ff7b8a; }
+}
